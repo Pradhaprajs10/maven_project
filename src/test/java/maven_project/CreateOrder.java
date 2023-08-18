@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class CreateOrder {
 	
-	@Test
+	@Test(groups="smoke")
 	public void createOrder() {
 		System.out.println("order was created");
 	}
